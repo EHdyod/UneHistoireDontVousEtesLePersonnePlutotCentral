@@ -114,7 +114,7 @@ footer p{
   margin-right: 10px; 
 }</style><script role="script" id="twine-user-script" type="text/twine-javascript">let footer = document.createElement("footer");
 let newP = document.createElement("p");
-let pContent = document.createTextNode('Écrit par Jérémy Abat-Jour.');
+let pContent = document.createTextNode('Ecrit par Jérémy Abat-Jour');
 
 newP.appendChild(pContent);
 footer.appendChild(newP);
