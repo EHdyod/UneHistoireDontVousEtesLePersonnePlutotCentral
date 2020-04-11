@@ -1308,17 +1308,17 @@ Pour préserver nos chers amis toqués et autres psychorigides de l’ordre alph
 
 Voici vos scores actuels :
 
-- fin trouvées : &lt;&lt;if ndef $fins&gt;&gt; &lt;&lt;set $fins to []&gt;&gt; &lt;&lt;/if&gt;&gt;&lt;&lt;=$fins.length&gt;&gt;
+- fins trouvées : &lt;&lt;if ndef $fins&gt;&gt; &lt;&lt;set $fins to []&gt;&gt; &lt;&lt;/if&gt;&gt;&lt;&lt;=$fins.length&gt;&gt;
 
-- épilogue trouvées : &lt;&lt;if ndef $epilogues&gt;&gt; &lt;&lt;set $epilogues to []&gt;&gt;  &lt;&lt;/if&gt;&gt; &lt;&lt;=$epilogues.length&gt;&gt;
+- épilogues trouvées : &lt;&lt;if ndef $epilogues&gt;&gt; &lt;&lt;set $epilogues to []&gt;&gt;  &lt;&lt;/if&gt;&gt; &lt;&lt;=$epilogues.length&gt;&gt;
 
 - chauve trouvé : &lt;&lt;if ndef $chauve&gt;&gt; &lt;&lt;set $chauve to false&gt;&gt; &lt;&lt;/if&gt;&gt;&lt;&lt;if $chauve&gt;&gt; 1 &lt;&lt;else&gt;&gt; 0 &lt;&lt;/if&gt;&gt;
 
-- généraux Pinochet : &lt;&lt;if ndef $pinochet&gt;&gt; &lt;&lt;set $pinochet to false&gt;&gt;&lt;&lt;/if&gt;&gt; &lt;&lt;if $pinochet&gt;&gt; 1 &lt;&lt;else&gt;&gt; 0 &lt;&lt;/if&gt;&gt; 
+- généraux Pinochet trouvés : &lt;&lt;if ndef $pinochet&gt;&gt; &lt;&lt;set $pinochet to false&gt;&gt;&lt;&lt;/if&gt;&gt; &lt;&lt;if $pinochet&gt;&gt; X &lt;&lt;else&gt;&gt; 0 &lt;&lt;/if&gt;&gt; 
 
-- bobinette qui choit trop : &lt;&lt;if ndef $bobinette&gt;&gt; &lt;&lt;set $bobinette to false&gt;&gt; &lt;&lt;/if&gt;&gt; &lt;&lt;if $bobinette&gt;&gt; 1 &lt;&lt;else&gt;&gt; 0 &lt;&lt;/if&gt;&gt; 
+- bobinette qui choit trop : &lt;&lt;if ndef $bobinette&gt;&gt; &lt;&lt;set $bobinette to false&gt;&gt; &lt;&lt;/if&gt;&gt; &lt;&lt;if $bobinette&gt;&gt; Trouvée &lt;&lt;else&gt;&gt; Non trouvée &lt;&lt;/if&gt;&gt; 
 
-- dessin à l&#39;encre noir représentant le bleu infini, ce qui est dur à faire : &lt;&lt;if ndef $dessin&gt;&gt; &lt;&lt;set $dessin to false&gt;&gt; &lt;&lt;/if&gt;&gt; &lt;&lt;if $dessin&gt;&gt; 1 &lt;&lt;else&gt;&gt; 0 &lt;&lt;/if&gt;&gt; 
+- dessin à l&#39;encre noir représentant le bleu infini, ce qui est dur à faire : &lt;&lt;if ndef $dessin&gt;&gt; &lt;&lt;set $dessin to false&gt;&gt; &lt;&lt;/if&gt;&gt; &lt;&lt;if $dessin&gt;&gt; Trouvé &lt;&lt;else&gt;&gt; Non trouvé &lt;&lt;/if&gt;&gt; 
 
 &lt;&lt;if ($fins.length === 12) and ($epilogues.length === 3) and $chauve and $pinochet and $bobinette and $dessin&gt;&gt;
 [[Bravo|Z]]
